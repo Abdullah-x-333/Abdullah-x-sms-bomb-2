@@ -1,0 +1,10 @@
+
+
+
+termux-setup-storage
+pkg update && pkg upgrade -y
+pkg install git python -y
+git clone https://github.com/Abdullah-x-333/Abdullah-x-sms-bomb-2
+cd Abdullah-x-sms-bomb-2
+pip install requests aiohttp
+python Abdullah-x-sms-bomb-2.py
